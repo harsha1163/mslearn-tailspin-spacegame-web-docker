@@ -1,8 +1,7 @@
 trigger:
-- 'main'
+- main
 
 variables:
-  buildConfiguration: 'Release'
   webRepository: 'web'
   tag: '$(Build.BuildId)'
 
